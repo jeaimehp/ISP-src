@@ -12,6 +12,7 @@ using std::endl;
 
 int main () {
 	int array_5_elements [5] = { 10, 11, 12, 13, 14 };
+	cout << "The array memory address is " << array_5_elements << endl;
 	cout << "First Element = " << array_5_elements [0] << endl;
 	cout << "Second Element = " << array_5_elements [1] << endl;
 	cout << "Third Element = " << array_5_elements [2] << endl;
