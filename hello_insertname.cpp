@@ -15,6 +15,6 @@ using std::string;
 int main () {
 	string insert_name = "";
 	cout << "Who dares disturb my slumber?";
-	cin >> insert_name;
+	getline(cin, insert_name);
 	cout << "Oh, Hello " << insert_name << "!" << endl;
 	}

@@ -10,7 +10,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-//#include <cmath>
+#include <cmath>
 
 int main () {
 	cout << "3 to the power of 2 = " << pow(3,2) << endl;
